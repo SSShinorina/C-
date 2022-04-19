@@ -69,5 +69,24 @@ int main()
         cout << "You are female but not muslim";
     }
 
+    cout<<"####################### This is C++ problem solving ###################"<<endl;
+    int user_input;
+    cout << "Enter a positive number no greater than 15"<<endl;
+    cin >> user_input;
+
+    while(user_input > 15 || user_input < 0){
+        cout << "Enter 15 or less than 15:";
+        cin >> user_input;
+    }
+    cout << "Your number is: "<< user_input << endl;
+
+    for (int i = 0; i < user_input; i++){
+            for (int j =0; j<user_input; j++){
+                    cout << "X";
+            }
+            cout << endl;
+    }
+
+
     return 0;
 }
